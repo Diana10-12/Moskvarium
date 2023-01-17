@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="билеты.css">
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <img src="Img\Москвариум.webp" alt="pic" class="ImgMoskvarium">
+            <p class="Moskvarium"><i><b>Москвариум</b></i></p>
+            <a href="Москвариум.html" class="home"><p class="back"> Вернуться назад</p></a>
+        </div>
+    </header>
+    <main>
+        <div class="calendar">
+            <p class="date">Выбрать дату:</p>
+            <input type="date" id="davaToday">
+            <script>
+            document.getElementById('davaToday').valueAsDate = new Date();
+            </script>
+        </div>
+        <div class="rectangle_buy">
+            <p class="prices"><b>Цены:</b></p>
+            <p1><b>ПН-ЧТ:</b><br><br>Билет юного посетителя (от 3 до 12 лет) = 750₽/чел.<br>Взрослый билет	= 1100₽/чел.<br>2 взрослых и 1 детский = 2650₽/группа.<br>2 взрослых и 2 детских = 3200₽/группа.</p1>
+            <p2><b>ПТ – ВС, праздничные, выходные, нерабочие дни:</b><br><br>Билет юного посетителя (от 3 до 12 лет) = 900₽/чел.<br>Взрослый билет	= 1300₽/чел.<br>2 взрослых и 1 детский = 3250₽/группа.<br>2 взрослых и 2 детских = 4100₽/группа.</p2>
+            <p3><b>Купить билет по номеру: +7(499)677-77-77</b></p3>
+        </div>
+        
+    </main>
+    <footer>
+            <img src="Img\logo.webp" alt="pic" class="logo_footer">
+            <p class="time"><b>Время работы:10:00-22:00<br><br><br>+7(499)677-77-77<br>info@moskvarium.ru</b></p>
+    </footer>
+</body>
+</html>

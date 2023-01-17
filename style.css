@@ -1,0 +1,568 @@
+body, p, h1, h2, ul{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    background-color: rgb(198, 217, 255);
+}
+body{
+    background-color: rgb(140, 197, 249);
+}
+.ImgMoskvarium{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+}
+.Moskvarium{
+    position: absolute;
+    top: 40px;
+    left: 200px;
+    font-size: 48px;
+}
+.buy{
+    position: absolute;
+    right: 100px;
+    top: 40px;
+    background-color: rgb(69, 138, 250);
+    color: aliceblue;
+    border-radius: 32px;
+    width: 150px;
+    height: 75px;
+}
+.ticket{
+    position: absolute;
+    font-size: 18px;
+    top: 25px;
+    left: 20px;
+}
+.rectangle_build{
+    position: absolute;
+    width: 800px;
+    height: 650px;
+    background-color: rgb(73, 100, 255);
+    border-radius: 32px;
+    left: 500px;
+    top: 200px;
+}
+.build{
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    border-radius: 32px;
+}
+.heading{
+    position: absolute;
+    top: 410px;
+    left: 110px;
+    font-size: 24px;
+    color: aliceblue;
+}
+.text{
+    position: absolute;
+    top: 450px;
+    left: 50px;
+    width: 700px;
+    text-align: justify;
+    font-size: 18px;
+}
+.heading_aquariums{
+    position: absolute;
+    top: 900px;
+    left: 800px;
+    font-size: 38px;
+}
+
+.rectangle_aquariums{
+    position: absolute;
+    width: 800px;
+    height: 350px;
+    background-color: rgb(73, 100, 255);
+    border-radius: 32px;
+    left: 500px;
+    top: 950px;
+}
+.shark{
+    position: absolute;
+    font-size: 38px;
+    left: 75px;
+    top: 10px;
+}
+.img_shark{
+    position: absolute;
+    width: 250px;
+    height: 170px;
+    top: 100px;
+    left: 10px;
+}
+.crocodile{
+    position: absolute;
+    font-size: 38px;
+    left: 300px;
+    top: 10px;
+}
+.img_crocodile{
+    position: absolute;
+    width: 250px;
+    height: 170px;
+    top: 100px;
+    left: 275px;
+}
+.orca{
+    position: absolute;
+    font-size: 38px;
+    right: 75px;
+    top: 10px;
+}
+.img_orca{
+    position: absolute;
+    width: 250px;
+    height: 170px;
+    top: 100px;
+    right: 10px;
+}
+
+.heading_show{
+    position: absolute;
+    top: 1300px;
+    left: 850px;
+    font-size: 38px;
+}
+.rectangle_show{
+    position: absolute;
+    width: 800px;
+    height: 720px;
+    background-color: rgb(73, 100, 255);
+    border-radius: 32px;
+    left: 500px;
+    top: 1350px;
+}
+.img_banner_show{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    width: 700px;
+    height: 500px;
+}
+.img_dolphins_show{
+    position: absolute;
+    top: 520px;
+    left: 50px;
+    width: 325px;
+    height: 190px;
+}
+.img_orca_show{
+    position: absolute;
+    top: 520px;
+    right: 50px;
+    width: 325px;
+    height: 190px;
+}
+footer{
+    position: absolute;
+    top: 2100px;
+    height: 300px;
+    width: 100%;
+    background-color: rgb(198, 217, 255);
+}
+.logo_footer{
+    position: absolute;
+    left: 750px;
+    top: 20px;
+    width: 300px;
+    height:75px ;
+}
+.time{
+    position: absolute;
+    top: 120px;
+    left: 760px;
+    font-size: 24px;
+    text-align: center;
+}
+@media (max-width:1200px) {
+    .rectangle_build{
+        position: absolute;
+        left: 200px;
+    }
+    .rectangle_aquariums{
+        position: absolute;
+        left: 200px;
+    }
+    .heading_aquariums{
+        position: absolute;
+        left: 500px;
+    }
+    .heading_show{
+        position: absolute;
+        left: 500px;
+    }
+    .rectangle_show{
+        position: absolute;
+        left: 200px;
+    }
+    .logo_footer{
+        position: absolute;
+        left: 450px;
+    }
+    .time{
+        position: absolute;
+        left: 450px;
+    }
+}
+@media (max-width:1024px) {
+    .rectangle_build{
+        position: absolute;
+        left: 100px;
+    }
+    .rectangle_aquariums{
+        position: absolute;
+        left: 100px;
+    }
+    .heading_aquariums{
+        position: absolute;
+        left: 450px;
+    }
+    .heading_show{
+        position: absolute;
+        left: 450px;
+    }
+    .rectangle_show{
+        position: absolute;
+        left: 100px;
+    }
+    .logo_footer{
+        position: absolute;
+        left: 350px;
+    }
+    .time{
+        position: absolute;
+        left: 350px;
+    }
+}
+@media (max-width:900px){
+    .rectangle_build{
+        position: absolute;
+        left: 30px;
+        width: 700px;
+    }
+    .build{
+        width: 700px;
+    }
+    .text{
+        width: 600px;
+    }
+    .heading{
+        position: absolute;
+        left: 60px;
+    }
+    .rectangle_aquariums{
+        position: absolute;
+        left: 30px;
+        width: 700px;
+    }
+    .img_shark{
+        width: 210px;
+    }
+    .img_crocodile{
+        position: absolute;
+        left: 245px;
+        width: 210px;
+    }
+    .crocodile{
+        left: 250px;
+    }
+    .img_orca{
+        width: 210px;
+    }
+    .heading_aquariums{
+        position: absolute;
+        left: 300px;
+    }
+    .heading_show{
+        position: absolute;
+        left: 350px;
+    }
+    .rectangle_show{
+        position: absolute;
+        left: 30px;
+        width: 700px;
+    }
+    .img_banner_show{
+        width: 600px;
+    }
+    .img_dolphins_show{
+        width: 300px;
+    }
+    .img_orca_show{
+        width: 300px;
+    }
+    .logo_footer{
+        position: absolute;
+        left: 250px;
+    }
+    .time{
+        position: absolute;
+        left: 250px;
+    }
+}
+@media (max-width:768px) {
+    .rectangle_build{
+        position: absolute;
+        left: 30px;
+        width: 700px;
+    }
+    .build{
+        width: 700px;
+    }
+    .text{
+        width: 600px;
+    }
+    .heading{
+        position: absolute;
+        left: 60px;
+    }
+    .rectangle_aquariums{
+        position: absolute;
+        left: 30px;
+        width: 700px;
+    }
+    .img_shark{
+        width: 210px;
+    }
+    .img_crocodile{
+        position: absolute;
+        left: 245px;
+        width: 210px;
+    }
+    .crocodile{
+        left: 250px;
+    }
+    .img_orca{
+        width: 210px;
+    }
+    .heading_aquariums{
+        position: absolute;
+        left: 300px;
+    }
+    .heading_show{
+        position: absolute;
+        left: 350px;
+    }
+    .rectangle_show{
+        position: absolute;
+        left: 30px;
+        width: 700px;
+    }
+    .img_banner_show{
+        width: 600px;
+    }
+    .img_dolphins_show{
+        width: 300px;
+    }
+    .img_orca_show{
+        width: 300px;
+    }
+    .logo_footer{
+        position: absolute;
+        left: 250px;
+    }
+    .time{
+        position: absolute;
+        left: 250px;
+    }
+}
+@media (max-width:730px) {
+    .Moskvarium{
+        font-size: 32px;
+    }
+    .rectangle_build{
+        left: 50px;
+        width: 500px;
+        height: 800px;
+    }
+    .build{
+        width: 500px;
+    }
+    .text{
+        top: 470px;
+        width: 400px;
+    }
+    .heading{
+        left: 60px;
+    }
+    .rectangle_aquariums{
+        top: 1050px;
+        left: 50px;
+        width: 500px;
+        height: 450px;
+    }
+    .shark{
+        font-size: 24px;
+    }
+    .crocodile{
+        font-size: 24px;
+    }
+    .orca{
+        font-size: 24px;
+        top: 220px;
+        left: 210px;
+    }
+    .img_shark{
+        top: 50px;
+        width: 200px;
+        height: 150px;
+    }
+    .img_crocodile{
+        top: 50px;
+        width: 200px;
+        height: 150px;
+        left: 290px;
+    }
+    .crocodile{
+        left: 350px;
+    }
+    .img_orca{
+        width: 210px;
+        top: 250px;
+        left: 140px;
+    }
+    .heading_aquariums{
+        left: 200px;
+        top: 1000px;
+    }
+    
+    .heading_show{
+        top: 1530px;
+        left: 260px;
+    }
+    .rectangle_show{
+        top: 1600px;
+        left: 50px;
+        width: 500px;
+    }
+    .img_banner_show{
+        width: 400px;
+        height: 300px;
+    }
+    .img_dolphins_show{
+        top: 320px;
+        left: 100px;
+        width: 300px;
+    }
+    .img_orca_show{
+        width: 300px;
+        left: 100px;
+    }
+    .logo_footer{
+        position: absolute;
+        left: 250px;
+    }
+    .time{
+        position: absolute;
+        left: 250px;
+    }
+    footer{
+        top: 2350px;
+    }
+}
+@media (max-width:630px) {
+    .ImgMoskvarium{
+        width: 75px;
+        height: 75px;
+    }
+    header{
+        height: 75px;
+    }
+    .Moskvarium{
+        left: 80px;
+        top: 20px;
+    }
+    .buy{
+        width: 100px;
+        height: 55px;
+        top: 10px;
+    }
+    .ticket{
+        top: 5px;
+    }
+}
+@media (max-width:425px) {
+    .Moskvarium{
+        font-size: 20px;
+    }
+    .buy{
+        left: 200px;
+    }
+    .rectangle_build{
+        width: 300px;
+        left: 10px;
+    }
+    .build{
+        width: 300px;
+        height: 200px;
+    }
+    .heading{
+        top: 210px;
+    }
+    .text{
+        top: 300px;
+        width: 250px;
+        left: 25px;
+    }
+    .heading_aquariums{
+        left: 110px;
+    }
+    .rectangle_aquariums{
+        width: 300px;
+        height: 650px;
+        left: 10px;
+    }
+    .shark,.orca{
+        left: 125px;
+    }
+    .img_shark,.img_orca{
+        left: 50px;
+        width: 200px;
+        height: 150px;
+    }
+    .crocodile{
+        top: 430px;
+        left: 100px;
+    }
+    .img_crocodile{
+        top: 470px;
+        left: 50px;
+    }
+    .heading_show{
+        top: 1700px;
+        left: 180px;
+    }
+    .rectangle_show{
+        top: 1750px;
+        width: 300px;
+        height: 610px;
+        left: 10px;
+    }
+    .img_banner_show,.img_dolphins_show,.img_orca_show{
+        left: 15px;
+        width: 270px;
+        height: 190px;
+    }
+    .img_dolphins_show{
+        top: 210px;
+    }
+    .img_orca_show{
+        top: 410px;
+    }
+    footer{
+        top: 2400px;
+    }
+    .logo_footer{
+        left: 10px;
+    }
+    .time{
+        left: 10px;
+    }
+}
